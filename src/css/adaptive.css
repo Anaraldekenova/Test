@@ -1,0 +1,75 @@
+@import url(style6.css);
+
+@media screen and (max-width:1200px) {
+    .container {
+        padding: 0 16 px;
+    }
+
+    section:not(:last-child) {
+        margin-bottom: 80 px;
+    }
+
+    #specties .spec-img h3 {
+        width: 90%;
+    }
+
+    #species .spec-mini {
+        overflow-y: hidden;
+    }
+
+    .box-title {
+        left: 10px;
+        top: 10px;
+    }
+
+    .section-title {
+        width: 60%;
+    }
+}
+
+/* mobile adaptive */
+@media screen and (max-width:600px) {
+    header nav.flex-row {
+        display: none;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    .box-inf-1,
+    .box-inf-2 {
+        display: none;
+    }
+
+    section:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    #species .content.flex-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #species .spec-img {
+        width: 100%;
+        height: 120%;
+    }
+
+    #species .spec-img:not(:first-child) {
+        height: 250px;
+        margin-top: 4%;
+    }
+}
